@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_myAXI4IP_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_vip_v1_0_1_pkg" />
+            <top_module name="glbl" />
+            <top_module name="tb_myAXI4IP" />
+            <top_module name="xil_common_vip_v1_0_0_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="31315600000fs"></ZoomStartTime>
+      <ZoomEndTime time="34565600001fs"></ZoomEndTime>
+      <Cursor1Time time="9816800000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="264"></NameColumnWidth>
+      <ValueColumnWidth column_width="78"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="21" />
+   <wvobject type="logic" fp_name="/tb_myAXI4IP/aclk">
+      <obj_property name="ElementShortName">aclk</obj_property>
+      <obj_property name="ObjectShortName">aclk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_myAXI4IP/aresetn">
+      <obj_property name="ElementShortName">aresetn</obj_property>
+      <obj_property name="ObjectShortName">aresetn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_myAXI4IP/pulse_inp">
+      <obj_property name="ElementShortName">pulse_inp</obj_property>
+      <obj_property name="ObjectShortName">pulse_inp</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_myAXI4IP/DUT/design_1_i/myAXI4IP_0_M00_AXI_AWADDR">
+      <obj_property name="ElementShortName">myAXI4IP_0_M00_AXI_AWADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">myAXI4IP_0_M00_AXI_AWADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_myAXI4IP/DUT/design_1_i/myAXI4IP_0_M00_AXI_AWBURST">
+      <obj_property name="ElementShortName">myAXI4IP_0_M00_AXI_AWBURST[1:0]</obj_property>
+      <obj_property name="ObjectShortName">myAXI4IP_0_M00_AXI_AWBURST[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_myAXI4IP/DUT/design_1_i/myAXI4IP_0_M00_AXI_AWCACHE">
+      <obj_property name="ElementShortName">myAXI4IP_0_M00_AXI_AWCACHE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">myAXI4IP_0_M00_AXI_AWCACHE[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_myAXI4IP/DUT/design_1_i/myAXI4IP_0_M00_AXI_AWID">
+      <obj_property name="ElementShortName">myAXI4IP_0_M00_AXI_AWID[0:0]</obj_property>
+      <obj_property name="ObjectShortName">myAXI4IP_0_M00_AXI_AWID[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_myAXI4IP/DUT/design_1_i/myAXI4IP_0_M00_AXI_AWLEN">
+      <obj_property name="ElementShortName">myAXI4IP_0_M00_AXI_AWLEN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">myAXI4IP_0_M00_AXI_AWLEN[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_myAXI4IP/DUT/design_1_i/myAXI4IP_0_M00_AXI_AWLOCK">
+      <obj_property name="ElementShortName">myAXI4IP_0_M00_AXI_AWLOCK</obj_property>
+      <obj_property name="ObjectShortName">myAXI4IP_0_M00_AXI_AWLOCK</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_myAXI4IP/DUT/design_1_i/myAXI4IP_0_M00_AXI_AWPROT">
+      <obj_property name="ElementShortName">myAXI4IP_0_M00_AXI_AWPROT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">myAXI4IP_0_M00_AXI_AWPROT[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_myAXI4IP/DUT/design_1_i/myAXI4IP_0_M00_AXI_AWQOS">
+      <obj_property name="ElementShortName">myAXI4IP_0_M00_AXI_AWQOS[3:0]</obj_property>
+      <obj_property name="ObjectShortName">myAXI4IP_0_M00_AXI_AWQOS[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_myAXI4IP/DUT/design_1_i/myAXI4IP_0_M00_AXI_AWREADY">
+      <obj_property name="ElementShortName">myAXI4IP_0_M00_AXI_AWREADY</obj_property>
+      <obj_property name="ObjectShortName">myAXI4IP_0_M00_AXI_AWREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_myAXI4IP/DUT/design_1_i/myAXI4IP_0_M00_AXI_AWSIZE">
+      <obj_property name="ElementShortName">myAXI4IP_0_M00_AXI_AWSIZE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">myAXI4IP_0_M00_AXI_AWSIZE[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_myAXI4IP/DUT/design_1_i/myAXI4IP_0_M00_AXI_AWUSER">
+      <obj_property name="ElementShortName">myAXI4IP_0_M00_AXI_AWUSER[0:0]</obj_property>
+      <obj_property name="ObjectShortName">myAXI4IP_0_M00_AXI_AWUSER[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_myAXI4IP/DUT/design_1_i/myAXI4IP_0_M00_AXI_AWVALID">
+      <obj_property name="ElementShortName">myAXI4IP_0_M00_AXI_AWVALID</obj_property>
+      <obj_property name="ObjectShortName">myAXI4IP_0_M00_AXI_AWVALID</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_myAXI4IP/DUT/design_1_i/myAXI4IP_0_M00_AXI_WDATA">
+      <obj_property name="ElementShortName">myAXI4IP_0_M00_AXI_WDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">myAXI4IP_0_M00_AXI_WDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_myAXI4IP/DUT/design_1_i/myAXI4IP_0_M00_AXI_WLAST">
+      <obj_property name="ElementShortName">myAXI4IP_0_M00_AXI_WLAST</obj_property>
+      <obj_property name="ObjectShortName">myAXI4IP_0_M00_AXI_WLAST</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_myAXI4IP/DUT/design_1_i/myAXI4IP_0_M00_AXI_WREADY">
+      <obj_property name="ElementShortName">myAXI4IP_0_M00_AXI_WREADY</obj_property>
+      <obj_property name="ObjectShortName">myAXI4IP_0_M00_AXI_WREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_myAXI4IP/DUT/design_1_i/myAXI4IP_0_M00_AXI_WSTRB">
+      <obj_property name="ElementShortName">myAXI4IP_0_M00_AXI_WSTRB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">myAXI4IP_0_M00_AXI_WSTRB[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_myAXI4IP/DUT/design_1_i/myAXI4IP_0_M00_AXI_WUSER">
+      <obj_property name="ElementShortName">myAXI4IP_0_M00_AXI_WUSER[0:0]</obj_property>
+      <obj_property name="ObjectShortName">myAXI4IP_0_M00_AXI_WUSER[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_myAXI4IP/DUT/design_1_i/myAXI4IP_0_M00_AXI_WVALID">
+      <obj_property name="ElementShortName">myAXI4IP_0_M00_AXI_WVALID</obj_property>
+      <obj_property name="ObjectShortName">myAXI4IP_0_M00_AXI_WVALID</obj_property>
+   </wvobject>
+</wave_config>
